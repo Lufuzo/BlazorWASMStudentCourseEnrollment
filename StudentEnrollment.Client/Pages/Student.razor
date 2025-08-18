@@ -1,0 +1,111 @@
+﻿@page "/students"
+
+@using StudentEnrollment.Shared.Models
+@inject HttpClient Http
+
+<h3>Student</h3>
+
+<button class="btn btn-primary mb-3" @onclick="NewStudent">Add Student</button>
+
+@if (students == null)
+{
+    <p><em>Loading...</em></p>
+}
+else 
+if (!students.Any())
+{
+<p><em>No students found. Add one above.</em></p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>StudentId</th>
+                <th>StudentName</th>
+                <th>StudentSurname</th>
+                <th>StudentEmail</th>
+                <th>StudentEmail</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+      @*   <tbody>
+            @foreach (var student in students)
+            {
+                <tr>
+                    <td>@student.StudentId</td>
+                    <td>@student.StudentName</td>
+                    <td>@student.StudentSurname</td>
+                    <td>@student.StudentEmail</td>
+                    <td>@student.StudentIDNumber</td>
+                    <td>
+                        <button class="btn btn-sm btn-warning" @onclick="() => EditStudent(student)">Edit</button>
+                        <button class="btn btn-sm btn-danger" @onclick="() => DeleteStudent(student.StudentId)">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody> *@
+    </table>
+}
+@* 
+@if (editingStudent != null)
+{
+    <div class="card p-3 mt-3">
+        <h5>@(editingStudent.StudentId == 0 ? "Add New Student" : "Edit Student")</h5>
+
+        <div class="mb-2">
+            <label>StudentName:</label>
+            <input class="form-control" @bind="editingStudent.StudentName" />
+        </div>
+        <div class="mb-2">
+            <label>StudentName:</label>
+            <input type="text" class="form-control" @bind="editingStudent.StudentName" />
+        </div>
+
+        <button class="btn btn-success" @onclick="SaveStudent">Save</button>
+        <button class="btn btn-secondary" @onclick="CancelEdit">Cancel</button>
+    </div>
+} *@
+@code {
+
+    List<Student>? students;
+    Student? editingStudent;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadStudents();
+    }
+    async Task LoadStudents()
+    {
+        students = await Http.GetFromJsonAsync<List<Student>>("api/students");
+        StateHasChanged();
+    }
+
+    void NewStudent()
+    {
+        editingStudent = new Student();
+    }
+
+    // void EditStudent(Student s)
+    // {
+    //     editingStudent = new Student
+    //     {
+    //         Studentid = s.StudenId,
+    //         StudentName = s.StudentName,
+    //         StudentSurname = s.StudentSurname,
+    //         StudentEmail = s.StudentEmail,
+    //         StudentIDNumber = s.StudentIDNumber
+    //     };
+    // }
+    void CancelEdit()
+    {
+        editingStudent = null;
+    }
+
+    async Task DeleteStudent(int id)
+    {
+        await Http.DeleteAsync($"api/students/{id}");
+        await LoadStudents();
+    }
+}
