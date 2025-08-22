@@ -1,10 +1,87 @@
 ﻿@page "/courses"
 
+
+@using Microsoft.AspNetCore.Authorization
 @using StudentEnrollment.Shared.Models
 @inject HttpClient Http
+@attribute [Authorize]
 
 <h3>Course</h3>
 
+<button class="btn btn-primary mb-3" @onclick="NewCourse">Add Course</button>
+
+
+@if (courses == null)
+{
+    <p><em>Loading...</em></p>
+}
+else if (!courses.Any())
+{
+    <p><em>No courses found. Add one above.</em></p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>CourseId</th>
+                <th>CourseName</th>
+                <th>CourseCode</th>
+               
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var course in courses)
+            {
+                <tr>
+                    <td>@course.CourseId</td>
+                    <td>@course.CourseName</td>
+                    <td>@course.CourseCode</td>
+                    <td>
+                        <ul>
+                            @foreach (var enrollment in course.Enrollments)
+                            {
+                                <li>@enrollment.Student.StudentSurname - @enrollment.Student.StudentEmail</li>
+                            }
+                        </ul>
+                    </td>
+                    <td>
+                        <button class="btn btn-sm btn-warning" @onclick="() => EditCourse(course)">Edit</button>
+                        <button class="btn btn-sm btn-danger" @onclick="() => DeleteCourse(course.CourseId)">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}
+
+
+
+
 @code {
 
+    List<StudentEnrollment.Shared.Models.Course>? courses;
+    StudentEnrollment.Shared.Models.Course? editingCourse;
+
+    protected override async Task OnInitializedAsync()
+    {
+        courses = await Http.GetFromJsonAsync<List<StudentEnrollment.Shared.Models.Course>>("api/courses");
+    } 
+    void NewCourse()
+    {
+        editingCourse = new StudentEnrollment.Shared.Models.Course();
+    }
+
+    void EditCourse(StudentEnrollment.Shared.Models.Course course)
+    {
+        editingCourse = course;
+    }
+
+    async Task DeleteCourse(int id)
+    {
+        await Http.DeleteAsync($"api/courses/{id}");
+        courses = await Http.GetFromJsonAsync<List<StudentEnrollment.Shared.Models.Course>>("api/courses");
+    }
 }

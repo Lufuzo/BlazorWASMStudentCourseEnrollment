@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using StudentEnrollment.Shared.Models;
@@ -18,7 +19,7 @@ namespace StudentEnrollment.Server.Controllers
         {
             _dbContext = context;
         }
-
+        [AllowAnonymous]
         [HttpPost]
         public IActionResult  CreateCourse(Course course)
         {
@@ -27,15 +28,15 @@ namespace StudentEnrollment.Server.Controllers
             _dbContext.SaveChanges();
             return CreatedAtAction(nameof(Get), new { id = course.CourseId }, course);
         }
-
+        [AllowAnonymous]
         [HttpGet("{id}")]
         public IActionResult Get(int id) => Ok(_dbContext.Courses.Find(id));
-
+        [AllowAnonymous]
         [HttpGet]
         public IActionResult GetAll() => Ok(_dbContext.Courses.ToList());
 
 
-
+        [AllowAnonymous]
         [HttpPut("{id}")]
         public IActionResult UpdateCourse(int id, [FromBody] Course course)
         {
@@ -49,6 +50,7 @@ namespace StudentEnrollment.Server.Controllers
             return Ok(course);
         }
 
+        [AllowAnonymous]
         [HttpDelete("{id}")]
         public IActionResult DeleteCourse(int id)
         {

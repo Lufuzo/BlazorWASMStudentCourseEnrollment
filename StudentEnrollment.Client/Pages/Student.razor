@@ -1,20 +1,24 @@
 ﻿@page "/students"
 
+
+@using Microsoft.AspNetCore.Authorization
 @using StudentEnrollment.Shared.Models
 @inject HttpClient Http
+@attribute [Authorize]
 
 <h3>Student</h3>
 
+
 <button class="btn btn-primary mb-3" @onclick="NewStudent">Add Student</button>
+
 
 @if (students == null)
 {
     <p><em>Loading...</em></p>
 }
-else 
-if (!students.Any())
+else if (!students.Any())
 {
-<p><em>No students found. Add one above.</em></p>
+    <p><em>No students found. Add one above.</em></p>
 }
 else
 {
@@ -22,14 +26,14 @@ else
         <thead>
             <tr>
                 <th>StudentId</th>
-                <th>StudentName</th>
-                <th>StudentSurname</th>
-                <th>StudentEmail</th>
-                <th>StudentEmail</th>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Email</th>
+                <th>ID Number</th>
                 <th>Actions</th>
             </tr>
         </thead>
-      @*   <tbody>
+        <tbody>
             @foreach (var student in students)
             {
                 <tr>
@@ -44,68 +48,82 @@ else
                     </td>
                 </tr>
             }
-        </tbody> *@
+        </tbody>
     </table>
+
 }
-@* 
+
 @if (editingStudent != null)
 {
-    <div class="card p-3 mt-3">
-        <h5>@(editingStudent.StudentId == 0 ? "Add New Student" : "Edit Student")</h5>
+    <EditForm Model="editingStudent" OnValidSubmit="SaveStudent">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
 
-        <div class="mb-2">
-            <label>StudentName:</label>
-            <input class="form-control" @bind="editingStudent.StudentName" />
+        <div class="mb-3">
+            <label>Name</label>
+            <InputText class="form-control" @bind-Value="editingStudent.StudentName" />
         </div>
-        <div class="mb-2">
-            <label>StudentName:</label>
-            <input type="text" class="form-control" @bind="editingStudent.StudentName" />
+        <div class="mb-3">
+            <label>Surname</label>
+            <InputText class="form-control" @bind-Value="editingStudent.StudentSurname" />
+        </div>
+        <div class="mb-3">
+            <label>Email</label>
+            <InputText class="form-control" @bind-Value="editingStudent.StudentEmail" />
+        </div>
+        <div class="mb-3">
+            <label>ID Number</label>
+            <InputText class="form-control" @bind-Value="editingStudent.StudentIDNumber" />
         </div>
 
-        <button class="btn btn-success" @onclick="SaveStudent">Save</button>
-        <button class="btn btn-secondary" @onclick="CancelEdit">Cancel</button>
-    </div>
-} *@
+        <button type="submit" class="btn btn-success">Save</button>
+        <button type="button" class="btn btn-secondary" @onclick="() => editingStudent = null">Cancel</button>
+    </EditForm>
+}
+
 @code {
+    async Task SaveStudent()
+    {
+        if (editingStudent.StudentId == 0)
+        {
+            // create new
+            await Http.PostAsJsonAsync("api/students", editingStudent);
+        }
+        else
+        {
+            // update existing
+            await Http.PutAsJsonAsync($"api/students/{editingStudent.StudentId}", editingStudent);
+        }
 
-    List<Student>? students;
-    Student? editingStudent;
+        // reload
+        students = await Http.GetFromJsonAsync<List<StudentEnrollment.Shared.Models.Student>>("api/students");
+        editingStudent = null;
+    }
+}
 
+
+@code {
+    List<StudentEnrollment.Shared.Models.Student>? students;
+    StudentEnrollment.Shared.Models.Student? editingStudent;
 
     protected override async Task OnInitializedAsync()
     {
-        await LoadStudents();
-    }
-    async Task LoadStudents()
-    {
-        students = await Http.GetFromJsonAsync<List<Student>>("api/students");
-        StateHasChanged();
+        students = await Http.GetFromJsonAsync<List<StudentEnrollment.Shared.Models.Student>>("api/students");
     }
 
     void NewStudent()
     {
-        editingStudent = new Student();
+        editingStudent = new StudentEnrollment.Shared.Models.Student();
     }
 
-    // void EditStudent(Student s)
-    // {
-    //     editingStudent = new Student
-    //     {
-    //         Studentid = s.StudenId,
-    //         StudentName = s.StudentName,
-    //         StudentSurname = s.StudentSurname,
-    //         StudentEmail = s.StudentEmail,
-    //         StudentIDNumber = s.StudentIDNumber
-    //     };
-    // }
-    void CancelEdit()
+    void EditStudent(StudentEnrollment.Shared.Models.Student student)
     {
-        editingStudent = null;
+        editingStudent = student;
     }
 
     async Task DeleteStudent(int id)
     {
         await Http.DeleteAsync($"api/students/{id}");
-        await LoadStudents();
+        students = await Http.GetFromJsonAsync<List<StudentEnrollment.Shared.Models.Student>>("api/students");
     }
 }
