@@ -1,16 +1,10 @@
 ﻿using StudentEnrollment.Shared.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http.Json;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace StudentEnrollment.Shared
+namespace StudentEnrollment.Client.Service
 {
     public class CourseService
     {
-
         private readonly HttpClient _http;
         public CourseService(HttpClient http)
         {
@@ -40,7 +34,6 @@ namespace StudentEnrollment.Shared
         {
             await _http.DeleteAsync($"api/courses/{id}");
         }
-
 
     }
 }

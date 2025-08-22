@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using StudentEnrollment.Server.Data;
 using StudentEnrollment.Shared.Models;
 
 namespace StudentEnrollment.Server.Controllers
@@ -25,11 +26,25 @@ namespace StudentEnrollment.Server.Controllers
             return CreatedAtAction(nameof(GetStudents), new { id = student.StudentId }, student);
         }
 
-        [HttpGet("{id}")]
-        public IActionResult GetStudents(int id) => Ok(_context.Students.Find(id));
+        //[HttpGet("{id}")]
+        //public IActionResult GetStudents(int id) => Ok(_context.Students.Find(id));
 
-        [HttpGet]
-        public IActionResult GetStudentById() => Ok(_context.Students.ToList());
+        //[HttpGet]
+        //public IActionResult GetStudentById() => Ok(_context.Students.ToList());
+
+        [HttpGet] // GET: api/students
+        public IActionResult GetStudents()
+        {
+            return Ok(_context.Students.ToList());
+        }
+
+        [HttpGet("{id}")] // GET: api/students/5
+        public IActionResult GetStudentById(int id)
+        {
+            var student = _context.Students.Find(id);
+            if (student == null) return NotFound();
+            return Ok(student);
+        }
 
         [HttpPut("{id}")]
         public IActionResult UpdateStudent(int id, [FromBody] Student student)

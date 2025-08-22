@@ -1156,8 +1156,8 @@ C:\Users\Lungelo Mbalane\OneDrive\Documents\Visual Studio 2022\BlazorAssesment\S
 C:\Users\Lungelo Mbalane\OneDrive\Documents\Visual Studio 2022\BlazorAssesment\StudentEnrollment.Client\StudentEnrollment.Client\obj\Debug\net8.0\refint\StudentEnrollment.Client.dll
 C:\Users\Lungelo Mbalane\OneDrive\Documents\Visual Studio 2022\BlazorAssesment\StudentEnrollment.Client\StudentEnrollment.Client\obj\Debug\net8.0\StudentEnrollment.Client.pdb
 C:\Users\Lungelo Mbalane\OneDrive\Documents\Visual Studio 2022\BlazorAssesment\StudentEnrollment.Client\StudentEnrollment.Client\obj\Debug\net8.0\ref\StudentEnrollment.Client.dll
-C:\Users\Lungelo Mbalane\OneDrive\Documents\Visual Studio 2022\BlazorAssesment\StudentEnrollment.Client\StudentEnrollment.Client\obj\Debug\net8.0\compressed\yy3mq9a4kn-sf605gn7sz.gz
-C:\Users\Lungelo Mbalane\OneDrive\Documents\Visual Studio 2022\BlazorAssesment\StudentEnrollment.Client\StudentEnrollment.Client\obj\Debug\net8.0\compressed\0op1vkt38a-dbehdh23yy.gz
-C:\Users\Lungelo Mbalane\OneDrive\Documents\Visual Studio 2022\BlazorAssesment\StudentEnrollment.Client\StudentEnrollment.Client\obj\Debug\net8.0\compressed\b7x3w0k4cy-vyr6lphliv.gz
-C:\Users\Lungelo Mbalane\OneDrive\Documents\Visual Studio 2022\BlazorAssesment\StudentEnrollment.Client\StudentEnrollment.Client\obj\Debug\net8.0\compressed\k2a4751xem-j97jdxh9d2.gz
-C:\Users\Lungelo Mbalane\OneDrive\Documents\Visual Studio 2022\BlazorAssesment\StudentEnrollment.Client\StudentEnrollment.Client\obj\Debug\net8.0\compressed\rhqd2w39i5-8hnnantflx.gz
+C:\Users\Lungelo Mbalane\OneDrive\Documents\Visual Studio 2022\BlazorAssesment\StudentEnrollment.Client\StudentEnrollment.Client\obj\Debug\net8.0\compressed\yy3mq9a4kn-sbvziq757v.gz
+C:\Users\Lungelo Mbalane\OneDrive\Documents\Visual Studio 2022\BlazorAssesment\StudentEnrollment.Client\StudentEnrollment.Client\obj\Debug\net8.0\compressed\0op1vkt38a-s47p4ma06c.gz
+C:\Users\Lungelo Mbalane\OneDrive\Documents\Visual Studio 2022\BlazorAssesment\StudentEnrollment.Client\StudentEnrollment.Client\obj\Debug\net8.0\compressed\b7x3w0k4cy-ly5k2mbaqh.gz
+C:\Users\Lungelo Mbalane\OneDrive\Documents\Visual Studio 2022\BlazorAssesment\StudentEnrollment.Client\StudentEnrollment.Client\obj\Debug\net8.0\compressed\k2a4751xem-fzm9q4o6mb.gz
+C:\Users\Lungelo Mbalane\OneDrive\Documents\Visual Studio 2022\BlazorAssesment\StudentEnrollment.Client\StudentEnrollment.Client\obj\Debug\net8.0\compressed\rhqd2w39i5-tltelnnci9.gz

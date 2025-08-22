@@ -2,7 +2,9 @@
 
 
 @using Microsoft.AspNetCore.Authorization
+@using StudentEnrollment.Shared
 @using StudentEnrollment.Shared.Models
+@inject StudentService StudentService
 @inject HttpClient Http
 @attribute [Authorize]
 

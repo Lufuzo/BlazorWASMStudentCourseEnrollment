@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "StudentEnrollment.Client",
   "resources": {
-    "hash": "sha256-48IMl6kW+F0ykkVX0CJvWgSj0PkRnE5Dgv4eRN5iuzM=",
+    "hash": "sha256-BwIm3BZdfsemytwD4iQfzY2Cn8j0cbGKFgjliWEDDwU=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-O/NCYcAN9uPocD7ns7AzF/cqx7f5vL1PTJCQs0vEXyk="
     },
@@ -232,12 +232,12 @@
       "mscorlib.wasm": "sha256-RLW/7NVuhoPfq151II3kX2kWHgBwQgpCw9aemQNg3to=",
       "netstandard.wasm": "sha256-lAg5WvTiA8wbsIwlr51xh0YWpXT9F5EX3Cnv+11O/mU=",
       "System.Private.CoreLib.wasm": "sha256-3O3muuRQwoLRecYRjfIFWUURvTjP4EmD2O8wYg2UDNY=",
-      "StudentEnrollment.Shared.wasm": "sha256-aEovjvfgzJH3KlfEEY0fsbnpfN+4LJ4UEbyG0pIm5H4=",
-      "StudentEnrollment.Client.wasm": "sha256-F1ySSjpK/5gbceEvpdSaYIY/B90mey41sRiWLS/en3o="
+      "StudentEnrollment.Shared.wasm": "sha256-WDO/Ulm9DMUd52W4RAxY1h+f7k8JjIKJwNezVqGv5iE=",
+      "StudentEnrollment.Client.wasm": "sha256-0xqyhhD+GT6OMTCSEjsnAM0SAQX/rXPpbAjfJccO2dA="
     },
     "pdb": {
-      "StudentEnrollment.Shared.pdb": "sha256-uVPxwO3V/hFq92743b7hcAlopAeTSqgG/wpxuRYWa+o=",
-      "StudentEnrollment.Client.pdb": "sha256-h0xf5CfQWdlO7jk8VDH7ynxrl+pWrU0TsRUqK64/ChM="
+      "StudentEnrollment.Shared.pdb": "sha256-pNOwbr5xy2WvSUWNRXR2lPM84t/h3aGceFhNZv3IFu8=",
+      "StudentEnrollment.Client.pdb": "sha256-m8bc3eEnGG9z/0SAFipKFOSRlM45/j5VlcdIdnx3nOA="
     }
   },
   "cacheBootResources": true,

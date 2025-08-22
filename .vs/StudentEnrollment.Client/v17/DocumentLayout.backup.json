@@ -3,12 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5F923EE4-2442-42C2-B28E-BC9912D4F306}|StudentEnrollment.Client\\StudentEnrollment.Client.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.client\\pages\\course.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5F923EE4-2442-42C2-B28E-BC9912D4F306}|StudentEnrollment.Client\\StudentEnrollment.Client.csproj|solutionrelative:studentenrollment.client\\pages\\course.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{04B65C42-4FA6-40AD-A2B9-3123C84D7D39}|StudentEnrollment.Server\\StudentEnrollment.Server.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.server\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04B65C42-4FA6-40AD-A2B9-3123C84D7D39}|StudentEnrollment.Server\\StudentEnrollment.Server.csproj|solutionrelative:studentenrollment.server\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F923EE4-2442-42C2-B28E-BC9912D4F306}|StudentEnrollment.Client\\StudentEnrollment.Client.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.client\\service\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F923EE4-2442-42C2-B28E-BC9912D4F306}|StudentEnrollment.Client\\StudentEnrollment.Client.csproj|solutionrelative:studentenrollment.client\\service\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2E0CE3-4F7C-4617-825E-CFE9986DA8E3}|StudentEnrollment.Shared\\StudentEnrollment.Shared.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.shared\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2E0CE3-4F7C-4617-825E-CFE9986DA8E3}|StudentEnrollment.Shared\\StudentEnrollment.Shared.csproj|solutionrelative:studentenrollment.shared\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2E0CE3-4F7C-4617-825E-CFE9986DA8E3}|StudentEnrollment.Shared\\StudentEnrollment.Shared.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.shared\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2E0CE3-4F7C-4617-825E-CFE9986DA8E3}|StudentEnrollment.Shared\\StudentEnrollment.Shared.csproj|solutionrelative:studentenrollment.shared\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F923EE4-2442-42C2-B28E-BC9912D4F306}|StudentEnrollment.Client\\StudentEnrollment.Client.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.client\\service\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F923EE4-2442-42C2-B28E-BC9912D4F306}|StudentEnrollment.Client\\StudentEnrollment.Client.csproj|solutionrelative:studentenrollment.client\\service\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04B65C42-4FA6-40AD-A2B9-3123C84D7D39}|StudentEnrollment.Server\\StudentEnrollment.Server.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.server\\studentenrollment.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{04B65C42-4FA6-40AD-A2B9-3123C84D7D39}|StudentEnrollment.Server\\StudentEnrollment.Server.csproj|solutionrelative:studentenrollment.server\\studentenrollment.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04B65C42-4FA6-40AD-A2B9-3123C84D7D39}|StudentEnrollment.Server\\StudentEnrollment.Server.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04B65C42-4FA6-40AD-A2B9-3123C84D7D39}|StudentEnrollment.Server\\StudentEnrollment.Server.csproj|solutionrelative:studentenrollment.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04B65C42-4FA6-40AD-A2B9-3123C84D7D39}|StudentEnrollment.Server\\StudentEnrollment.Server.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.server\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04B65C42-4FA6-40AD-A2B9-3123C84D7D39}|StudentEnrollment.Server\\StudentEnrollment.Server.csproj|solutionrelative:studentenrollment.server\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F923EE4-2442-42C2-B28E-BC9912D4F306}|StudentEnrollment.Client\\StudentEnrollment.Client.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.client\\pages\\student.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5F923EE4-2442-42C2-B28E-BC9912D4F306}|StudentEnrollment.Client\\StudentEnrollment.Client.csproj|solutionrelative:studentenrollment.client\\pages\\student.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F923EE4-2442-42C2-B28E-BC9912D4F306}|StudentEnrollment.Client\\StudentEnrollment.Client.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F923EE4-2442-42C2-B28E-BC9912D4F306}|StudentEnrollment.Client\\StudentEnrollment.Client.csproj|solutionrelative:studentenrollment.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2E0CE3-4F7C-4617-825E-CFE9986DA8E3}|StudentEnrollment.Shared\\StudentEnrollment.Shared.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.shared\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2E0CE3-4F7C-4617-825E-CFE9986DA8E3}|StudentEnrollment.Shared\\StudentEnrollment.Shared.csproj|solutionrelative:studentenrollment.shared\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2E0CE3-4F7C-4617-825E-CFE9986DA8E3}|StudentEnrollment.Shared\\StudentEnrollment.Shared.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.shared\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2E0CE3-4F7C-4617-825E-CFE9986DA8E3}|StudentEnrollment.Shared\\StudentEnrollment.Shared.csproj|solutionrelative:studentenrollment.shared\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2E0CE3-4F7C-4617-825E-CFE9986DA8E3}|StudentEnrollment.Shared\\StudentEnrollment.Shared.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.shared\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2E0CE3-4F7C-4617-825E-CFE9986DA8E3}|StudentEnrollment.Shared\\StudentEnrollment.Shared.csproj|solutionrelative:studentenrollment.shared\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2E0CE3-4F7C-4617-825E-CFE9986DA8E3}|StudentEnrollment.Shared\\StudentEnrollment.Shared.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.shared\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2E0CE3-4F7C-4617-825E-CFE9986DA8E3}|StudentEnrollment.Shared\\StudentEnrollment.Shared.csproj|solutionrelative:studentenrollment.shared\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F923EE4-2442-42C2-B28E-BC9912D4F306}|StudentEnrollment.Client\\StudentEnrollment.Client.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F923EE4-2442-42C2-B28E-BC9912D4F306}|StudentEnrollment.Client\\StudentEnrollment.Client.csproj|solutionrelative:studentenrollment.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F923EE4-2442-42C2-B28E-BC9912D4F306}|StudentEnrollment.Client\\StudentEnrollment.Client.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.client\\authetication\\studentauthstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F923EE4-2442-42C2-B28E-BC9912D4F306}|StudentEnrollment.Client\\StudentEnrollment.Client.csproj|solutionrelative:studentenrollment.client\\authetication\\studentauthstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F923EE4-2442-42C2-B28E-BC9912D4F306}|StudentEnrollment.Client\\StudentEnrollment.Client.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.client\\authetication\\browserstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F923EE4-2442-42C2-B28E-BC9912D4F306}|StudentEnrollment.Client\\StudentEnrollment.Client.csproj|solutionrelative:studentenrollment.client\\authetication\\browserstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F923EE4-2442-42C2-B28E-BC9912D4F306}|StudentEnrollment.Client\\StudentEnrollment.Client.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.client\\pages\\course.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F923EE4-2442-42C2-B28E-BC9912D4F306}|StudentEnrollment.Client\\StudentEnrollment.Client.csproj|solutionrelative:studentenrollment.client\\pages\\course.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F923EE4-2442-42C2-B28E-BC9912D4F306}|StudentEnrollment.Client\\StudentEnrollment.Client.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.client\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,32 +87,8 @@
       "RelativeMoniker": "D:0:0:{5F923EE4-2442-42C2-B28E-BC9912D4F306}|StudentEnrollment.Client\\StudentEnrollment.Client.csproj|solutionrelative:studentenrollment.client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C2E0CE3-4F7C-4617-825E-CFE9986DA8E3}|StudentEnrollment.Shared\\StudentEnrollment.Shared.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.shared\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C2E0CE3-4F7C-4617-825E-CFE9986DA8E3}|StudentEnrollment.Shared\\StudentEnrollment.Shared.csproj|solutionrelative:studentenrollment.shared\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F923EE4-2442-42C2-B28E-BC9912D4F306}|StudentEnrollment.Client\\StudentEnrollment.Client.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F923EE4-2442-42C2-B28E-BC9912D4F306}|StudentEnrollment.Client\\StudentEnrollment.Client.csproj|solutionrelative:studentenrollment.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F923EE4-2442-42C2-B28E-BC9912D4F306}|StudentEnrollment.Client\\StudentEnrollment.Client.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5F923EE4-2442-42C2-B28E-BC9912D4F306}|StudentEnrollment.Client\\StudentEnrollment.Client.csproj|solutionrelative:studentenrollment.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C2E0CE3-4F7C-4617-825E-CFE9986DA8E3}|StudentEnrollment.Shared\\StudentEnrollment.Shared.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.shared\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C2E0CE3-4F7C-4617-825E-CFE9986DA8E3}|StudentEnrollment.Shared\\StudentEnrollment.Shared.csproj|solutionrelative:studentenrollment.shared\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C2E0CE3-4F7C-4617-825E-CFE9986DA8E3}|StudentEnrollment.Shared\\StudentEnrollment.Shared.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.shared\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C2E0CE3-4F7C-4617-825E-CFE9986DA8E3}|StudentEnrollment.Shared\\StudentEnrollment.Shared.csproj|solutionrelative:studentenrollment.shared\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{04B65C42-4FA6-40AD-A2B9-3123C84D7D39}|StudentEnrollment.Server\\StudentEnrollment.Server.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.server\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04B65C42-4FA6-40AD-A2B9-3123C84D7D39}|StudentEnrollment.Server\\StudentEnrollment.Server.csproj|solutionrelative:studentenrollment.server\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04B65C42-4FA6-40AD-A2B9-3123C84D7D39}|StudentEnrollment.Server\\StudentEnrollment.Server.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.server\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04B65C42-4FA6-40AD-A2B9-3123C84D7D39}|StudentEnrollment.Server\\StudentEnrollment.Server.csproj|solutionrelative:studentenrollment.server\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F923EE4-2442-42C2-B28E-BC9912D4F306}|StudentEnrollment.Client\\StudentEnrollment.Client.csproj|c:\\users\\lungelo mbalane\\onedrive\\documents\\visual studio 2022\\blazorassesment\\studentenrollment.client\\studentenrollment.client\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -66,39 +106,193 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Service\\CourseService.cs",
+              "RelativeDocumentMoniker": "StudentEnrollment.Client\\Service\\CourseService.cs",
+              "ToolTip": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Service\\CourseService.cs",
+              "RelativeToolTip": "StudentEnrollment.Client\\Service\\CourseService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T07:21:46.718Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Counter.razor",
-              "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Pages\\Counter.razor",
-              "RelativeDocumentMoniker": "StudentEnrollment.Client\\Pages\\Counter.razor",
-              "ToolTip": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Pages\\Counter.razor",
-              "RelativeToolTip": "StudentEnrollment.Client\\Pages\\Counter.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-21T19:45:02.296Z"
+              "DocumentIndex": 4,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Service\\StudentService.cs",
+              "RelativeDocumentMoniker": "StudentEnrollment.Client\\Service\\StudentService.cs",
+              "ToolTip": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Service\\StudentService.cs",
+              "RelativeToolTip": "StudentEnrollment.Client\\Service\\StudentService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T07:19:42.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentEnrollment.Server",
+              "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Server\\StudentEnrollment.Server.csproj",
+              "RelativeDocumentMoniker": "StudentEnrollment.Server\\StudentEnrollment.Server.csproj",
+              "ToolTip": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Server\\StudentEnrollment.Server.csproj",
+              "RelativeToolTip": "StudentEnrollment.Server\\StudentEnrollment.Server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-22T06:50:44.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Server\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "StudentEnrollment.Server\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Server\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "StudentEnrollment.Server\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T06:49:32.567Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Program.cs",
-              "RelativeDocumentMoniker": "StudentEnrollment.Client\\Program.cs",
-              "ToolTip": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Program.cs",
-              "RelativeToolTip": "StudentEnrollment.Client\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Server\\Program.cs",
+              "RelativeDocumentMoniker": "StudentEnrollment.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Server\\Program.cs",
+              "RelativeToolTip": "StudentEnrollment.Server\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T19:39:12.836Z"
+              "WhenOpened": "2025-08-22T06:38:26.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Shared\\StudentService.cs",
+              "RelativeDocumentMoniker": "StudentEnrollment.Shared\\StudentService.cs",
+              "ToolTip": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Shared\\StudentService.cs",
+              "RelativeToolTip": "StudentEnrollment.Shared\\StudentService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T06:33:21.534Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Shared\\CourseService.cs",
+              "RelativeDocumentMoniker": "StudentEnrollment.Shared\\CourseService.cs",
+              "ToolTip": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Shared\\CourseService.cs",
+              "RelativeToolTip": "StudentEnrollment.Shared\\CourseService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T06:33:04.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Shared\\Models\\User.cs",
+              "RelativeDocumentMoniker": "StudentEnrollment.Shared\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Shared\\Models\\User.cs",
+              "RelativeToolTip": "StudentEnrollment.Shared\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T06:31:50.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Shared\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "StudentEnrollment.Shared\\Models\\Enrollment.cs",
+              "ToolTip": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Shared\\Models\\Enrollment.cs",
+              "RelativeToolTip": "StudentEnrollment.Shared\\Models\\Enrollment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T11:44:27.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Program.cs",
+              "RelativeDocumentMoniker": "StudentEnrollment.Client\\Program.cs",
+              "ToolTip": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Program.cs",
+              "RelativeToolTip": "StudentEnrollment.Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T19:39:12.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Student.razor",
+              "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Pages\\Student.razor",
+              "RelativeDocumentMoniker": "StudentEnrollment.Client\\Pages\\Student.razor",
+              "ToolTip": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Pages\\Student.razor",
+              "RelativeToolTip": "StudentEnrollment.Client\\Pages\\Student.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T06:49:39.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Server\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "StudentEnrollment.Server\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Server\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "StudentEnrollment.Server\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T06:49:07.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StudentAuthStateProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Authetication\\StudentAuthStateProvider.cs",
+              "RelativeDocumentMoniker": "StudentEnrollment.Client\\Authetication\\StudentAuthStateProvider.cs",
+              "ToolTip": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Authetication\\StudentAuthStateProvider.cs",
+              "RelativeToolTip": "StudentEnrollment.Client\\Authetication\\StudentAuthStateProvider.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAswF0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T06:11:43.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BrowserStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Authetication\\BrowserStorageService.cs",
+              "RelativeDocumentMoniker": "StudentEnrollment.Client\\Authetication\\BrowserStorageService.cs",
+              "ToolTip": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Authetication\\BrowserStorageService.cs",
+              "RelativeToolTip": "StudentEnrollment.Client\\Authetication\\BrowserStorageService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwB0AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T06:18:42.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Weather.razor",
               "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Pages\\Weather.razor",
               "RelativeDocumentMoniker": "StudentEnrollment.Client\\Pages\\Weather.razor",
@@ -110,19 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Enrollment.cs",
-              "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Shared\\Models\\Enrollment.cs",
-              "RelativeDocumentMoniker": "StudentEnrollment.Shared\\Models\\Enrollment.cs",
-              "ToolTip": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Shared\\Models\\Enrollment.cs",
-              "RelativeToolTip": "StudentEnrollment.Shared\\Models\\Enrollment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T11:44:27.283Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Shared\\Models\\Student.cs",
               "RelativeDocumentMoniker": "StudentEnrollment.Shared\\Models\\Student.cs",
@@ -130,11 +312,54 @@
               "RelativeToolTip": "StudentEnrollment.Shared\\Models\\Student.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T11:01:43.572Z"
+              "WhenOpened": "2025-08-19T11:01:43.572Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Shared\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "StudentEnrollment.Shared\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Shared\\Models\\Course.cs",
+              "RelativeToolTip": "StudentEnrollment.Shared\\Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T08:02:34.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "StudentEnrollment.Client\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Pages\\Counter.razor",
+              "RelativeToolTip": "StudentEnrollment.Client\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-21T19:45:02.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "StudentEnrollment.Client\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "StudentEnrollment.Client\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAE8AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T07:49:20.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\App.razor",
               "RelativeDocumentMoniker": "StudentEnrollment.Client\\App.razor",
@@ -146,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 22,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "StudentEnrollment.Client\\Layout\\MainLayout.razor",
@@ -158,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 17,
               "Title": "Course.razor",
               "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Pages\\Course.razor",
               "RelativeDocumentMoniker": "StudentEnrollment.Client\\Pages\\Course.razor",
@@ -171,43 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Student.razor",
-              "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Pages\\Student.razor",
-              "RelativeDocumentMoniker": "StudentEnrollment.Client\\Pages\\Student.razor",
-              "ToolTip": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Pages\\Student.razor",
-              "RelativeToolTip": "StudentEnrollment.Client\\Pages\\Student.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-19T06:49:39.792Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Shared\\Models\\Course.cs",
-              "RelativeDocumentMoniker": "StudentEnrollment.Shared\\Models\\Course.cs",
-              "ToolTip": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Shared\\Models\\Course.cs",
-              "RelativeToolTip": "StudentEnrollment.Shared\\Models\\Course.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T08:02:34.636Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "StudentEnrollment.Client\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "StudentEnrollment.Client\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAB0AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-19T07:49:20.719Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 23,
               "Title": "Component.razor",
               "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Client\\Pages\\Component.razor",
               "RelativeDocumentMoniker": "StudentEnrollment.Client\\Pages\\Component.razor",
@@ -219,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 21,
               "Title": "CoursesController.cs",
               "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Server\\Controllers\\CoursesController.cs",
               "RelativeDocumentMoniker": "StudentEnrollment.Server\\Controllers\\CoursesController.cs",
@@ -227,19 +416,8 @@
               "RelativeToolTip": "StudentEnrollment.Server\\Controllers\\CoursesController.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAYwBIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T06:48:56.992Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "StudentsController.cs",
-              "DocumentMoniker": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Server\\Controllers\\StudentsController.cs",
-              "RelativeDocumentMoniker": "StudentEnrollment.Server\\Controllers\\StudentsController.cs",
-              "ToolTip": "C:\\Users\\Lungelo Mbalane\\OneDrive\\Documents\\Visual Studio 2022\\BlazorAssesment\\StudentEnrollment.Client\\StudentEnrollment.Server\\Controllers\\StudentsController.cs",
-              "RelativeToolTip": "StudentEnrollment.Server\\Controllers\\StudentsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T06:49:07.591Z"
+              "WhenOpened": "2025-08-19T06:48:56.992Z",
+              "EditorCaption": ""
             }
           ]
         }

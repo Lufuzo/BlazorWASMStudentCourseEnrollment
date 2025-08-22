@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using StudentEnrollment.Server;
+using StudentEnrollment.Server.Data;
 using System;
 
 var builder = WebApplication.CreateBuilder(args);
